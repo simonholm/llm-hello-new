@@ -1,0 +1,2 @@
+transformers>=4.30
+# torch  # Uncomment this when running in WSL or PC environment
