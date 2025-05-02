@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # These requirements include all dependencies for all top-level python scripts
 # for llama.cpp. Avoid adding packages here directly.
 #
@@ -11,3 +12,7 @@
 -r ./requirements/requirements-convert_llama_ggml_to_gguf.txt
 -r ./requirements/requirements-convert_lora_to_gguf.txt
 -r ./requirements/requirements-tool_bench.txt
+=======
+transformers>=4.30
+# torch  # Uncomment this when running in WSL or PC environment
+>>>>>>> aad01fb27baa81724afb8ef4a0e646c3f1f8692e
