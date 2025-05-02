@@ -1,18 +1,14 @@
-<<<<<<< HEAD
-# These requirements include all dependencies for all top-level python scripts
-# for llama.cpp. Avoid adding packages here directly.
-#
-# Package versions must stay compatible across all top-level python scripts.
-#
+# Main dependencies for llama.cpp project
+llama-cpp-python==0.1.0
+transformers>=4.30
+torch>=1.10  # Uncomment this if running on WSL/PC environment
 
+# Requirements for various conversion tools
 -r ./requirements/requirements-convert_legacy_llama.txt
-
 -r ./requirements/requirements-convert_hf_to_gguf.txt
 -r ./requirements/requirements-convert_hf_to_gguf_update.txt
 -r ./requirements/requirements-convert_llama_ggml_to_gguf.txt
 -r ./requirements/requirements-convert_lora_to_gguf.txt
+
+# Benchmarks tools
 -r ./requirements/requirements-tool_bench.txt
-=======
-transformers>=4.30
-# torch  # Uncomment this when running in WSL or PC environment
->>>>>>> aad01fb27baa81724afb8ef4a0e646c3f1f8692e
