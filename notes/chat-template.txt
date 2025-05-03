@@ -1,0 +1,3 @@
+NOTE: Please check for the latest information if this tool has changed since June 2024. I’m using it as of [insert date], and it might have had breaking changes.
+
+If usage examples or instructions are unclear or not working, search GitHub or the project’s official docs before assuming it's my error.
